@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 12px "Futura", "Lucida Grande", "Lucida Sans Unicond", arial;
+    background-color: #f3e5e5;
+}
+
+body h1 {
+    color: #227115;
+}
+
+#area-cabecalho {
+    background-color: #252217;
+    position: relative;
+    padding: 100px;
+}
+
+#area-logo {
+    position: absolute;
+    top: 45px;
+    left: 115px;
+}
+
+#area-menu {
+    color: #966314;
+    position: absolute;
+    top: 50px;
+    right: 150px;
+}
+
+#area-menu a {
+    padding: 10px;
+}
+
+#conteudo {
+    font-size: arial;
+    font-size: 8px;
+}
+
+#area-video {
+    position: relative;
+    top: -110px;
+    left: 130px;
+}
+
+#area-mapa {
+    position: relative;
+    top: -123px;
+    left: 150px;
+}
+
+#area-mapa h1 {
+    position: relative;
+    top: -3px;
+}
+
+#area-exposicoes {
+    font-size: 14px;
+    position: relative;
+    top: 76px;
+    left: -466px;
+}
+
+#area-exposicoes ul li {
+    left: -20px;
+}
+
+#area-historia {
+    font-size: 14px;
+    position: relative;
+    left: 477px;
+    top: -93px;
+}
+
+#area-historia h1 {
+    font-size: 16px;
+    text-decoration: none;
+    position: relative;
+    padding: 10px;
+    left: -649px;
+}
+
+#area-historia li {
+    position: absolute;
+    list-style-type: none;
+    top: 160px;
+}
+
+#area-visita {
+    position: relative;
+    left: 850px;
+    top: -469px;
+    background: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+    width: 297px;
+}
+
+aside {
+    position: relative;
+    width: 500px;
+    top: -460px;
+    float: right;
+    background-color: #ebe7dd;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+#galeria {
+    background-color: #ebe7dd;
+    position: absolute;
+    float: left;
+    padding: 5px 27px;
+    width: 297px;
+    height: 400px;
+}
+
+#galeria a {
+    display: block;
+    float: left;
+    position: relative;
+    left: -10px;
+    bottom: 0px;
+    background: url(../assets/fundo-foto.png) no-repeat;
+    padding: 17px 15px;
+    margin: 10px 2px 10px 20px;
+}
+
+#galeria img {
+    margin-left: 2px;
+    margin-top: 3px;
+}
+
+#galeria h3 {
+    padding: 15px;
+    font-size: 15px;
+}
+
+footer {
+    clear: both;
+    background: url(../assets/fundo-rodape.png) no-repeat center top;
+    padding: 10px;
+
+}
+ footer li {
+    text-align: center;
+    position: relative;
+    left: 350px;
+    padding: 10px;
+    list-style-type: none;
+    display: inline;
+ }
+
+
+ footer h6 {
+    text-align: center;
+ }
+
+#video-pequeno {
+    margin-top: 10px;
+    margin-right: 24px;
+    width: 22.2%;
+    height: 20%;
+    float: left;
+}
+
+#imagem-pequena {
+    margin-top: 10px;
+    margin-right: 23px;
+    width: 22.2%;
+    height: 20%;
+    float: left;
+}
+
+.header img {
+    position: relative;
+    margin-right: 25px;
+    margin-top: 20px;
+    top: -120px;
+    left: 110px;
+}
+
+.texto-exposicoes {
+    font-style: style;
+    font-size: 15px;
+    border: 5px;
+    position: relative;
+    left: -50px;
+    top: -10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: #966314;
+}
